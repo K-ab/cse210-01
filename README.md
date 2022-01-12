@@ -98,7 +98,7 @@ def is_a_draw(board):
         if board[square] != "x" and board[square] != "o":
             return False
     return True
- #Define the rule of the to let player compare while playing   
+#Define the rule of the to let player compare while playing   
 def has_winner(board):
     return (board[0] == board[1] == board[2] or
             board[3] == board[4] == board[5] or
